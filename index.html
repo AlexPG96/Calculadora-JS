@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <style>
+        #calculadora{
+            width: 300px;
+
+        }
+
+        #calculadora input{
+            width: 100%;
+
+        }
+
+        #calculadora .botonera{
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #calculadora .botonera button{
+            width: 33%;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="calculadora">
+        <div>
+            <input type="text" id="display">
+        </div>
+        <div class="botonera">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>0</button>
+            <button id="suma">+</button>
+            <button id="resta">-</button>
+            <button id="igual">=</button>
+            <button id="reset">C</button>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
